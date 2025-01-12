@@ -114,3 +114,6 @@ eval "$(rbenv init - zsh)"
 
 # Set up fzf
 source <(fzf --zsh)
+
+# Set up starship
+eval "$(starship init zsh)"
