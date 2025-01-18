@@ -104,10 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set up brew
-eval "$(/usr/local/bin/brew shellenv)"
-
-# Set up rust and cargo
-. "$HOME/.cargo/env"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Set up rbenv
 eval "$(rbenv init - zsh)"

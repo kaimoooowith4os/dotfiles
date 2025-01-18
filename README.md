@@ -19,19 +19,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 make link
 ```
 
-5. Install rust
+5. Install ruby/rails
 ```sh
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
-6. Install starship
-```sh
-cargo install starship
-```
-
-7. Install ruby/rails
-```sh
-rbenv install 3.2.2
-rbenv global 3.2.2
+rbenv install 3.3.5
+rbenv global 3.3.5
 gem install rails
 ```
